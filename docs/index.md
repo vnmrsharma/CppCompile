@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: CppCompile - 12-Week Accelerated C++ Compiler Developer Guide
 ---
 
 # CppCompile: 12-Week Accelerated C++ Compiler Developer Guide
@@ -31,7 +31,25 @@ This accelerated timeline is divided into three focused phases:
 
 ## 🚀 Quick Start
 
-Ready to begin your journey? Start with the [Detailed Syllabus](/CppCompile/syllabus.html) and begin Week 1!
+Ready to begin your journey? Here's how to get started:
+
+<div class="course-phase">
+  <h3>📋 Step 1: Review the Syllabus</h3>
+  <p>Check out the <a href="syllabus.html">Detailed Syllabus</a> to understand the complete 12-week curriculum.</p>
+</div>
+
+<div class="course-phase">
+  <h3>🗺️ Step 2: Navigate the Course</h3>
+  <p>Use our <a href="navigation.html">Course Navigation</a> page to find all materials and resources.</p>
+</div>
+
+<div class="course-phase">
+  <h3>💻 Step 3: Start Week 1</h3>
+  <p>Begin with environment setup and basic C++ syntax. Follow the detailed schedule in the syllabus.</p>
+</div>
+
+<a href="syllabus.html" class="btn">View Detailed Syllabus</a>
+<a href="navigation.html" class="btn btn-secondary">Course Navigation</a>
 
 ## 📁 Repository Structure
 

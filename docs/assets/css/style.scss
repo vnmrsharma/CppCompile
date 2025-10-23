@@ -1,0 +1,163 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Custom styles for CppCompile course */
+
+/* Course-specific styling */
+.course-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+}
+
+.course-phase {
+  background: #f8f9fa;
+  border-left: 4px solid #007bff;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 4px;
+}
+
+.course-phase h3 {
+  color: #007bff;
+  margin-top: 0;
+}
+
+/* Enhanced table styling for syllabus */
+.syllabus-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  font-size: 0.9rem;
+}
+
+.syllabus-table th {
+  background: #007bff;
+  color: white;
+  padding: 1rem 0.5rem;
+  text-align: left;
+  font-weight: 600;
+}
+
+.syllabus-table td {
+  padding: 0.8rem 0.5rem;
+  border-bottom: 1px solid #dee2e6;
+  vertical-align: top;
+}
+
+.syllabus-table tr:nth-child(even) {
+  background: #f8f9fa;
+}
+
+.syllabus-table tr:hover {
+  background: #e9ecef;
+}
+
+/* Week headers */
+.week-header {
+  background: #28a745;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin: 1rem 0 0.5rem 0;
+  border-radius: 4px;
+}
+
+/* Critical topics highlighting */
+.critical {
+  background: #fff3cd;
+  border: 1px solid #ffeaa7;
+  padding: 0.5rem;
+  border-radius: 4px;
+  margin: 0.5rem 0;
+}
+
+/* Code highlighting */
+.code-block {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  padding: 1rem;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 0.9rem;
+  overflow-x: auto;
+}
+
+/* Navigation improvements */
+.page-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+/* Button styling */
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #0056b3;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-secondary {
+  background: #6c757d;
+}
+
+.btn-secondary:hover {
+  background: #545b62;
+}
+
+/* Responsive design improvements */
+@media (max-width: 768px) {
+  .syllabus-table {
+    font-size: 0.8rem;
+  }
+  
+  .syllabus-table th,
+  .syllabus-table td {
+    padding: 0.5rem 0.3rem;
+  }
+  
+  .course-header {
+    padding: 1rem 0;
+  }
+}
+
+/* Course progress indicators */
+.progress-bar {
+  background: #e9ecef;
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 1rem 0;
+}
+
+.progress-fill {
+  background: #28a745;
+  height: 8px;
+  transition: width 0.3s ease;
+}
+
+/* Resource links styling */
+.resource-link {
+  color: #007bff;
+  text-decoration: none;
+  border-bottom: 1px dotted #007bff;
+}
+
+.resource-link:hover {
+  color: #0056b3;
+  border-bottom: 1px solid #0056b3;
+}

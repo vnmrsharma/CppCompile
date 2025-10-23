@@ -1,38 +1,26 @@
 # Site settings
 title: CppCompile - 12-Week Accelerated C++ Compiler Developer Guide
 description: A comprehensive guide for transitioning from basic programming to systems-level C++ development
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/CppCompile" # the subpath of your site
 url: "https://vnmrsharma.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
-theme: minima
+remote_theme: pages-themes/cayman@v0.2.0
 
-# Collections
-collections:
-  weeks:
-    output: true
-    permalink: /:collection/:name/
+# Cayman theme configuration
+show_downloads: false
+google_analytics: # Add your Google Analytics tracking ID here if desired
 
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "weeks"
-    values:
-      layout: "week"
-
-# Navigation
-header_pages:
-  - index.md
-  - syllabus.md
-
-# Social links
-github_username: vnmrsharma
-twitter_username: vnmrsharma
+# GitHub metadata
+github:
+  repository_url: https://github.com/vnmrsharma/CppCompile
+  zip_url: https://github.com/vnmrsharma/CppCompile/archive/main.zip
+  tar_url: https://github.com/vnmrsharma/CppCompile/archive/main.tar.gz
 
 # Plugins
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-sitemap
