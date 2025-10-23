@@ -1,7 +1,7 @@
 # Site settings
 title: CppCompile - 12-Week Accelerated C++ Compiler Developer Guide
 description: A comprehensive guide for transitioning from basic programming to systems-level C++ development
-baseurl: "/CppCompile" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://vnmrsharma.github.io" # the base hostname & protocol for your site
 
 # Build settings
