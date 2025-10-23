@@ -1,0 +1,40 @@
+# Site settings
+title: CppCompile - 12-Week Accelerated C++ Compiler Developer Guide
+description: A comprehensive guide for transitioning from basic programming to systems-level C++ development
+baseurl: "/CppCompile" # the subpath of your site, e.g. /blog
+url: "https://yourusername.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Collections
+collections:
+  weeks:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "weeks"
+    values:
+      layout: "week"
+
+# Navigation
+header_pages:
+  - index.md
+  - syllabus.md
+  - resources.md
+  - community.md
+
+# Social links
+github_username: yourusername
+twitter_username: yourusername
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
