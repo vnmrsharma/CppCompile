@@ -1,18 +1,30 @@
-CppCompile: 12-Week Accelerated C++ Compiler Developer Guide
+# CppCompile: 12-Week Accelerated C++ Compiler Developer Guide
 
-Goal: To gain the foundational C++ systems knowledge, modern design patterns, and initial LLVM/MLIR exposure required to contribute to or build a sophisticated compiler or high-performance toolchain.
+## 🎯 Goal
 
-This repository aims to documents an intensive 12-week, 26-hour-per-week learning sprint focused on modern C++ (C++17/20), low-level memory management, and compiler infrastructure (Lexer, Parser, AST, and early MLIR concepts).
+To gain the foundational C++ systems knowledge, modern design patterns, and initial LLVM/MLIR exposure required to contribute to or build a sophisticated compiler or high-performance toolchain.
+
+## 📖 Overview
+
+This repository documents an intensive **12-week, 26-hour-per-week** learning sprint focused on:
+
+- **Modern C++** (C++17/20)
+- **Low-level memory management**
+- **Compiler infrastructure** (Lexer, Parser, AST, and early MLIR concepts)
 
 This resource aims to be the go-to guide for anyone transitioning from basic programming to systems-level C++ development.
 
-Syllabus Overview 
-This accelerated timeline is divided into three focused phases.
-Phase 1: C++ Fundamentals & System Core (Weeks 1-4)
-Phase 2: Advanced C++ & Design Patterns (Weeks 5-8)
-Phase 3: Compiler Foundations & Project Jumpstart (Weeks 9-12)
+## 📚 Syllabus Overview
 
-Here is the detailed overview of the syllabus:
+This accelerated timeline is divided into three focused phases:
+
+| Phase | Focus Area | Duration |
+|-------|------------|----------|
+| **Phase 1** | C++ Fundamentals & System Core | Weeks 1-4 |
+| **Phase 2** | Advanced C++ & Design Patterns | Weeks 5-8 |
+| **Phase 3** | Compiler Foundations & Project Jumpstart | Weeks 9-12 |
+
+### 📅 Detailed Syllabus
 
 | Week | Day & Time Block | Topic/Task | Focus & Deliverable (Goal) | Resource Reference |
 |------|------------------|------------|----------------------------|-------------------|
@@ -60,27 +72,33 @@ Here is the detailed overview of the syllabus:
 | | Sun (5.5h): 1–5 PM, 8:30–10 PM | System Review & Planning | Review the full 12 weeks. Plan your next 3 months on extending the MLIR Dialect and implementing compiler passes. | Self-Directed |
 
 
-Repository Structure
+## 📁 Repository Structure
 
-The files are organized to separate notes, runnable code examples, and videos.
+The files are organized to separate notes, runnable code examples, and videos for optimal learning experience:
 
-/Code: Contains all runnable C++ examples, organized by week and day (e.g., w1_d1, w12_project). Each folder includes a CMakeLists.txt.
-
-/Notes: Contains detailed notes, concepts, diagrams, and summaries of complex topics like RAII or the Visitor Pattern.
-
-/Projects: Contains larger, multi-file assignments (e.g., the final Lexer/Parser).
-
-/Videos: Short, self-recorded clips explaining a concept or troubleshooting a specific bug—a quick reference for future learners organised in a weekly manner.
-
-README.md: This file.
+| Directory | Description |
+|-----------|-------------|
+| **`/Code`** | Contains all runnable C++ examples, organized by week and day (e.g., `w1_d1`, `w12_project`). Each folder includes a `CMakeLists.txt` |
+| **`/Notes`** | Contains detailed notes, concepts, diagrams, and summaries of complex topics like RAII or the Visitor Pattern |
+| **`/Projects`** | Contains larger, multi-file assignments (e.g., the final Lexer/Parser) |
+| **`/Videos`** | Short, self-recorded clips explaining a concept or troubleshooting a specific bug—a quick reference for future learners organised in a weekly manner |
+| **`README.md`** | This file |
 
 
-Community & Contribution
+## 🤝 Community & Contribution
 
 This guide is meant to be a collaborative effort.
 
-Feedback Welcome: Found an error in the notes? Know a more modern way to achieve a goal? Open an issue!
+### 📝 Feedback Welcome
+- Found an error in the notes? 
+- Know a more modern way to achieve a goal? 
+- **Open an issue!**
 
-Resources: If you know of an exceptional article, book, or video for a specific topic, please suggest it via a Pull Request.
+### 📚 Resources
+If you know of an exceptional article, book, or video for a specific topic, please suggest it via a **Pull Request**.
 
-Thank you for following along! Let's build a compiler.
+---
+
+## 🚀 Let's Build a Compiler!
+
+Thank you for following along! Ready to dive into the world of C++ compiler development? Start with Week 1 and begin your journey to becoming a systems-level C++ developer.
