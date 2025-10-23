@@ -82,6 +82,7 @@ The files are organized to separate notes, runnable code examples, and videos fo
 | **`/Notes`** | Contains detailed notes, concepts, diagrams, and summaries of complex topics like RAII or the Visitor Pattern |
 | **`/Projects`** | Contains larger, multi-file assignments (e.g., the final Lexer/Parser) |
 | **`/Videos`** | Short, self-recorded clips explaining a concept or troubleshooting a specific bug—a quick reference for future learners organised in a weekly manner |
+| **`/Extras`** | Extra interesting things, including but not limited to articles, research papers, videos, open-source codes, frame-works, etc.|
 | **`README.md`** | This file |
 
 
